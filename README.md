@@ -17,8 +17,11 @@ If you have any questions regarding the pyDash project, please drop us an email.
 
 ## Pré-requisitos
 
-Para a utilização deste projeto é necessária a instalação de alguns pacotes python descritos no arquivo [requirements.txt](requirements.txt). 
+Para a utilização deste projeto é necessária a instalação dos seguintes pacotes python.
 
+```
+numpy matplotlib scipy seaborn
+```
 ## Por onde eu começo?
 
 Existem algumas formas de você configurar o seu ambiente. Nesta seção iremos apresentar apenas uma das formas possíveis.
@@ -49,7 +52,7 @@ source venv/bin/activate
 
 * Agora você precisa instalar as bibliotecas utilizadas pela ferramenta pyDash.
 ```
-pip3 install -r requirements.txt
+pip3 install numpy matplotlib scipy seaborn
 ```
 
 Pronto! Para testar o código, basta executar:
