@@ -53,6 +53,7 @@ source venv/bin/activate
 * Agora você precisa instalar as bibliotecas utilizadas pela ferramenta pyDash.
 ```
 pip3 install numpy matplotlib scipy seaborn
+pip3 install -U scikit-fuzzy
 ```
 
 Pronto! Para testar o código, basta executar:
